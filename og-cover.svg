@@ -1,24 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0e1726"/>
-      <stop offset="1" stop-color="#12233f"/>
+      <stop offset="0" stop-color="#1a0b3a"/>
+      <stop offset="0.55" stop-color="#0b0620"/>
+      <stop offset="1" stop-color="#05010d"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff2e97"/>
+      <stop offset="1" stop-color="#ffb03a"/>
     </linearGradient>
     <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2563eb"/>
-      <stop offset="1" stop-color="#06b6d4"/>
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a855f7"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <g opacity="0.35">
-    <circle cx="1050" cy="120" r="220" fill="url(#acc)" opacity="0.25"/>
-    <circle cx="120" cy="560" r="180" fill="#2563eb" opacity="0.25"/>
+  <circle cx="880" cy="250" r="150" fill="url(#sun)" opacity="0.85"/>
+  <g stroke="#22d3ee" stroke-width="2" opacity="0.5">
+    <path d="M0 470 H1200 M0 500 H1200 M0 540 H1200 M0 590 H1200" stroke-opacity="0.35"/>
+    <path d="M600 450 L120 630 M600 450 L360 630 M600 450 L600 630 M600 450 L840 630 M600 450 L1080 630"/>
   </g>
-  <path d="M60 380c40 0 40-120 80-120s40 240 80 240 40-240 80-240 40 240 80 240 40-240 80-240 40 240 80 240 40-240 80-240 40 120 80 120 40-80 80-80 40 40 80 40 40-30 80-30" fill="none" stroke="url(#acc)" stroke-width="6" stroke-linecap="round" opacity="0.9"/>
-  <text x="80" y="150" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff" letter-spacing="1">AUDITEL</text>
-  <rect x="300" y="112" width="86" height="42" rx="9" fill="url(#acc)"/>
-  <text x="318" y="141" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">PRO</text>
-  <text x="80" y="230" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">Eletrônica &amp; Instrumentos</text>
-  <text x="80" y="298" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#5ac8fa">Musicais em Brasília</text>
-  <text x="80" y="500" font-family="Arial, sans-serif" font-size="34" fill="#cdd6e4">+40 anos de mercado  •  4,4 ★ no Google  •  Asa Sul</text>
+  <rect x="0" y="440" width="1200" height="4" fill="url(#acc)"/>
+  <text x="80" y="150" font-family="Arial, sans-serif" font-size="96" font-weight="900" fill="#ffffff" letter-spacing="4">AUDITEL</text>
+  <rect x="80" y="176" width="120" height="40" rx="8" fill="#22d3ee"/>
+  <text x="104" y="204" font-family="Courier New, monospace" font-size="26" font-weight="700" fill="#05010d">PRO</text>
+  <text x="80" y="270" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#22d3ee" letter-spacing="1">ELETRÔNICA &amp; INSTRUMENTOS</text>
+  <text x="80" y="316" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#ff2e97" letter-spacing="1">MUSICAIS · BRASÍLIA</text>
+  <text x="80" y="560" font-family="Courier New, monospace" font-size="26" fill="#a596d6">+40 anos  •  4,4 ★ no Google  •  Asa Sul - DF</text>
 </svg>
